@@ -1,0 +1,126 @@
+# PYTHON + PYENV + GIT + BASH CHEATSHEET
+
+Author: Community Cheat Sheet
+Purpose: Quick reference for common development commands.
+
+---
+
+## BASH
+
+Open bash configuration
+nano ~/.bashrc
+
+Reload bash configuration
+source ~/.bashrc
+
+---
+
+## GIT
+
+Edit global git configuration
+git config --global --edit
+
+Edit custom git configuration
+nano ~/.gitconfig-osse
+
+---
+
+## SYSTEM COMMANDS
+
+List files with details
+ls -la
+
+Check disk usage
+df -h
+
+---
+
+## PYENV – SYSTEM INFO
+
+Check pyenv version
+pyenv --version
+
+Run pyenv health check
+pyenv doctor
+
+Show active Python version
+pyenv version
+
+Show real Python binary path
+pyenv which python
+
+List installed Python versions
+pyenv versions
+
+List all available Python versions
+pyenv install --list
+
+---
+
+## PYENV – INSTALL / REMOVE PYTHON
+
+Install Python version
+pyenv install 3.11.14
+
+Uninstall Python version
+pyenv uninstall 3.10.12
+
+Rebuild shims (fix missing commands)
+pyenv rehash
+
+---
+
+## PYENV – SET PYTHON VERSION
+
+Set global Python version (system-wide)
+pyenv global 3.11.14
+
+Set Python version for a specific project
+
+```
+cd myproject
+pyenv local 3.11.14
+```
+
+Set Python version for current shell only
+pyenv shell 3.11.14
+
+---
+
+## PYENV – DEBUG / INFORMATION
+
+Show active Python version
+pyenv version
+
+Show version resolution
+pyenv version-name
+pyenv version-origin
+
+Show where python command is coming from
+pyenv which python
+pyenv which pip
+
+Show all pyenv shims
+ls ~/.pyenv/shims
+
+---
+
+## PYENV – MAINTENANCE
+
+Update pyenv
+cd ~/.pyenv && git pull
+
+Remove unused builds
+pyenv uninstall --force <version>
+
+Reset shell if pyenv behaves unexpectedly
+exec "$SHELL"
+
+---
+
+## NOTES
+
+• pyenv allows managing multiple Python versions easily.
+• Use 'pyenv local' for project-specific environments.
+• Use 'pyenv global' to change system default Python.
+• Run 'pyenv rehash' if new commands are not detected.
