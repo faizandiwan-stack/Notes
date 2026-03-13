@@ -8,119 +8,191 @@ Purpose: Quick reference for common development commands.
 ## BASH
 
 Open bash configuration
+
+```bash
 nano ~/.bashrc
+```
 
 Reload bash configuration
+
+```bash
 source ~/.bashrc
+```
 
 ---
 
 ## GIT
 
 Edit global git configuration
+
+```bash
 git config --global --edit
+```
 
 Edit custom git configuration
+
+```bash
 nano ~/.gitconfig-osse
+```
 
 ---
 
 ## SYSTEM COMMANDS
 
 List files with details
+
+```bash
 ls -la
+```
 
 Check disk usage
+
+```bash
 df -h
+```
 
 ---
 
 ## PYENV – SYSTEM INFO
 
 Check pyenv version
+
+```bash
 pyenv --version
+```
 
 Run pyenv health check
+
+```bash
 pyenv doctor
+```
 
 Show active Python version
+
+```bash
 pyenv version
+```
 
 Show real Python binary path
+
+```bash
 pyenv which python
+```
 
 List installed Python versions
+
+```bash
 pyenv versions
+```
 
 List all available Python versions
+
+```bash
 pyenv install --list
+```
 
 ---
 
 ## PYENV – INSTALL / REMOVE PYTHON
 
 Install Python version
+
+```bash
 pyenv install 3.11.14
+```
 
 Uninstall Python version
+
+```bash
 pyenv uninstall 3.10.12
+```
 
 Rebuild shims (fix missing commands)
+
+```bash
 pyenv rehash
+```
 
 ---
 
 ## PYENV – SET PYTHON VERSION
 
 Set global Python version (system-wide)
+
+```bash
 pyenv global 3.11.14
+```
 
 Set Python version for a specific project
 
-```
+```bash
 cd myproject
 pyenv local 3.11.14
 ```
 
 Set Python version for current shell only
+
+```bash
 pyenv shell 3.11.14
+```
 
 ---
 
 ## PYENV – DEBUG / INFORMATION
 
 Show active Python version
+
+```bash
 pyenv version
+```
 
 Show version resolution
+
+```bash
 pyenv version-name
 pyenv version-origin
+```
 
 Show where python command is coming from
+
+```bash
 pyenv which python
 pyenv which pip
+```
 
 Show all pyenv shims
+
+```bash
 ls ~/.pyenv/shims
+```
 
 ---
 
 ## PYENV – MAINTENANCE
 
 Update pyenv
+
+```bash
 cd ~/.pyenv && git pull
+```
 
 Remove unused builds
+
+```bash
 pyenv uninstall --force <version>
+```
 
 Reset shell if pyenv behaves unexpectedly
+
+```bash
 exec "$SHELL"
+```
 
 ---
 
 ## NOTES
 
-• pyenv allows managing multiple Python versions easily.
-• Use 'pyenv local' for project-specific environments.
-• Use 'pyenv global' to change system default Python.
-• Run 'pyenv rehash' if new commands are not detected.
+* pyenv allows managing multiple Python versions easily.
+* Use `pyenv local` for project-specific environments.
+* Use `pyenv global` to change system default Python.
+* Run `pyenv rehash` if new commands are not detected.
