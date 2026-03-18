@@ -1,0 +1,126 @@
+==============================
+PYTHON INTERVIEW PRACTICE SET
+==============================
+
+🧠 BASIC PROGRAMMING PROBLEMS
+-----------------------------
+- Find prime number
+- Print Fibonacci series
+- Check palindrome (string/number)
+- Reverse a string / number
+- Find factorial (loop + recursion)
+- Swap two numbers (with/without temp)
+- Count digits in a number
+- Check Armstrong number
+- Find largest of 3 numbers
+
+
+🔁 LOOP & PATTERN PROBLEMS
+---------------------------
+- Star patterns
+  *
+  **
+  ***
+- Pyramid / Inverted pyramid
+- Number patterns
+- Multiplication table
+
+
+🔍 STRING PROBLEMS (IMPORTANT)
+------------------------------
+- Count vowels and consonants
+- Check anagram
+- Find duplicate characters
+- First non-repeating character
+- Reverse words in a sentence
+- Remove spaces / special characters
+- String compression (e.g., aab → a2b1)
+
+
+📊 ARRAY / LIST PROBLEMS
+------------------------
+- Find max and min in list
+- Second largest number
+- Remove duplicates
+- Find missing number
+- Merge two lists
+- Rotate list
+- Find intersection of two arrays
+
+
+🔢 NUMBER LOGIC PROBLEMS
+-------------------------
+- GCD / LCM
+- Prime factors
+- Sum of digits
+- Binary to decimal
+- Check even/odd without using %
+
+
+🔁 RECURSION-BASED PROBLEMS
+---------------------------
+- Factorial using recursion
+- Fibonacci using recursion
+- Sum of natural numbers
+- Reverse string using recursion
+- Tower of Hanoi
+
+
+🔗 DICTIONARY / HASHING PROBLEMS
+--------------------------------
+- Count frequency of elements
+- Group anagrams
+- Find most frequent element
+- Character count in string
+
+
+⚡ SEARCHING & SORTING (BASICS)
+-------------------------------
+- Linear search
+- Binary search
+- Bubble sort
+- Selection sort
+- Insertion sort
+
+
+🧩 MEDIUM-LEVEL PROBLEMS
+-------------------------
+- Two sum problem
+- Longest substring without repeating characters
+- Kadane’s algorithm (maximum subarray)
+- Move zeros to end
+- Merge intervals (basic)
+
+
+🧠 PYTHON-SPECIFIC QUESTIONS
+-----------------------------
+- List vs Tuple vs Set
+- Deep copy vs Shallow copy
+- *args and **kwargs
+- Decorators (basic usage)
+- Generators (yield)
+- Lambda functions
+- List comprehension
+
+
+🎯 MUST PRACTICE (SHORTLIST)
+-----------------------------
+- Prime number
+- Fibonacci
+- Palindrome
+- Anagram
+- Reverse string
+- Factorial (recursion)
+- Second largest number
+- Remove duplicates
+- Two sum
+- Frequency count using dictionary
+
+
+💡 NOTE
+--------
+Focus on:
+- Logic building
+- Code readability
+- Time & space complexity
+- Clear explanation during interviews
